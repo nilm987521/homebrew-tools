@@ -6,9 +6,7 @@ class Adt < Formula
      license "MIT"
 
      def install
-       # bin.install "adt"
-       # 或如果是 Go/Rust 專案:
-       system "go", "build", *std_go_args
+       bin.install "adt"
      end
 
      test do
